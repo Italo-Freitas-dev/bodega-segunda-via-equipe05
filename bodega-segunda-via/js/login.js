@@ -34,3 +34,7 @@ function enviar() {
 
 
 }
+function limparCampos(){
+    const formulario = document.getElementById("formularioCliente");
+    formulario.reset();
+}
